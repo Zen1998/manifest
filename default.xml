@@ -837,9 +837,10 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
-
+  <project name="Zen1998/device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="eleven" />
+  <project name="Zen1998/vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" revision="eleven" />
+  <project name="Zen1998/kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="stock" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
 
     <!-- Remove unused AOSP repos -->
     <include name="snippets/remove.xml" />
